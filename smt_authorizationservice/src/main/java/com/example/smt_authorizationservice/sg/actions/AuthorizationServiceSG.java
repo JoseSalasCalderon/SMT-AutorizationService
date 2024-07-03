@@ -14,7 +14,7 @@ import com.example.smt_authorizationservice.bw.interfaces.SG.IAuthorizationServi
 @Component
 public class AuthorizationServiceSG implements IAuthorizationServiceSG{
 
-    //private String urlLocal = "http://localhost:8083/authorizationAPIGW2";
+    //private String url = "http://localhost:8083/authorizationAPIGW2";
     private String url = "https://smt-apigateway-2.onrender.com/authorizationAPIGW2";
 
     @Override
