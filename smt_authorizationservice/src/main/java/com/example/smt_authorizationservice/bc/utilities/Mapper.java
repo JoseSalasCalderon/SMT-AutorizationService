@@ -58,7 +58,7 @@ public class Mapper {
         String marcaTarjeta = (bankAndBrand != null) ? bankAndBrand[1] : "Marca desconocida";
 
         return new Transaction(cardNumber, montoEnCentavos, tramaISO.getSystemTraceNumber(),
-                tramaISO.getAuthorizationIdentifier(), tramaISO.getRetrievalReferenceNumber(), "Enviado", banco, marcaTarjeta);
+                tramaISO.getAuthorizationIdentifier(), tramaISO.getRetrievalReferenceNumber(), "Debito","Enviado", banco, marcaTarjeta);
     }
     
 }
