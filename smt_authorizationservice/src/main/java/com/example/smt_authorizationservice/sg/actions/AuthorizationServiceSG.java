@@ -1,7 +1,5 @@
 package com.example.smt_authorizationservice.sg.actions;
 
-import java.nio.charset.StandardCharsets;
-
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
